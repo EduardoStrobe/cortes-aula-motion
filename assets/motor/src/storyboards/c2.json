@@ -1,0 +1,1698 @@
+{
+ "id": "c2",
+ "format": "primary",
+ "video": "c2/video.mp4",
+ "data": "c2.json",
+ "cursor": "cursor-c2.json",
+ "frames": 1008,
+ "closingFrames": 102,
+ "films": [
+  {
+   "id": "F",
+   "rect": [
+    120,
+    165,
+    1248,
+    746
+   ]
+  }
+ ],
+ "patches": [
+  {
+   "rect": [
+    992,
+    165,
+    1248,
+    244
+   ],
+   "fill": "filmBlack"
+  }
+ ],
+ "face": {
+  "still": 150,
+  "lost": [
+   [
+    432,
+    442,
+    446
+   ]
+  ]
+ },
+ "prop": {
+  "component": "BombomProp"
+ },
+ "hook": {
+  "kicker": "TEXTO DE EXEMPLO",
+  "lines": [
+   "TEXTO DE EXEMPLO",
+   "TEXTO DE EXEMPLO",
+   "TEXTO DE EXEMPLO"
+  ],
+  "accent": "TEXTO DE EXEMPLO",
+  "quoted": true,
+  "size": 104,
+  "wordSync": [
+   {
+    "anchor": {
+     "w": "palavra",
+     "n": 1,
+     "f": 1
+    },
+    "line": 0,
+    "word": 0
+   },
+   {
+    "anchor": {
+     "w": "palavra",
+     "n": 1,
+     "f": 16
+    },
+    "line": 0,
+    "word": 1
+   },
+   {
+    "anchor": {
+     "w": "palavra",
+     "n": 1,
+     "f": 21
+    },
+    "line": 1,
+    "word": 0
+   },
+   {
+    "anchor": {
+     "w": "palavra",
+     "n": 1,
+     "f": 32
+    },
+    "line": 2,
+    "word": 0
+   },
+   {
+    "anchor": {
+     "w": "palavra",
+     "n": 1,
+     "f": 40
+    },
+    "line": 2,
+    "word": 1
+   }
+  ],
+  "accentAt": {
+   "w": "palavra",
+   "n": 1,
+   "f": 21
+  },
+  "tokenHome": {
+   "line": 1,
+   "gap": 30,
+   "size": 236
+  },
+  "tokenMove": "twist",
+  "exit": 104,
+  "slot": {
+   "cam": [
+    {
+     "cx": 640,
+     "cy": 400,
+     "s": 1.4
+    },
+    {
+     "cx": 640,
+     "cy": 400,
+     "s": 1.47
+    }
+   ]
+  }
+ },
+ "hud": {
+  "tag": [
+   "TEXTO DE EXEMPLO"
+  ],
+  "readouts": [
+   {
+    "type": "countdown",
+    "label": "TEXTO DE EXEMPLO",
+    "arm": {
+     "f": 0
+    },
+    "target": {
+     "w": "palavra",
+     "n": 1,
+     "f": 162
+    },
+    "zeroTag": "TEXTO DE EXEMPLO",
+    "clear": {
+     "f": 224
+    }
+   },
+   {
+    "type": "countdown",
+    "label": "TEXTO DE EXEMPLO",
+    "arm": {
+     "f": 232
+    },
+    "target": {
+     "w": "palavra",
+     "n": 1,
+     "f": 339
+    },
+    "zeroTag": "TEXTO DE EXEMPLO",
+    "clear": {
+     "w": "palavra",
+     "n": 1,
+     "off": -15,
+     "f": 518
+    }
+   },
+   {
+    "type": "tally",
+    "label": "TEXTO DE EXEMPLO",
+    "items": [
+     {
+      "w": "palavra",
+      "n": 1,
+      "f": 554
+     },
+     {
+      "w": "palavra",
+      "n": 1,
+      "f": 652
+     },
+     {
+      "w": "palavra",
+      "n": 1,
+      "f": 707
+     },
+     {
+      "w": "palavra",
+      "n": 1,
+      "f": 731
+     },
+     {
+      "w": "palavra",
+      "n": 1,
+      "f": 751
+     },
+     {
+      "w": "palavra",
+      "n": 1,
+      "f": 764
+     },
+     {
+      "w": "palavra",
+      "n": 1,
+      "f": 781
+     },
+     {
+      "w": "palavra",
+      "n": 1,
+      "f": 797
+     }
+    ]
+   }
+  ]
+ },
+ "camera": [
+  {
+   "at": {
+    "f": 104
+   },
+   "to": {
+    "cx": 640,
+    "cy": 455,
+    "s": 1.4
+   },
+   "dur": 16
+  },
+  {
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 211
+   },
+   "to": {
+    "cx": 640,
+    "cy": 402,
+    "s": 1.8
+   },
+   "dur": 10,
+   "ease": "out"
+  },
+  {
+   "at": {
+    "f": 221
+   },
+   "to": {
+    "cx": 640,
+    "cy": 510,
+    "s": 1.8
+   },
+   "dur": 30
+  },
+  {
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 253
+   },
+   "to": {
+    "cx": 640,
+    "cy": 455,
+    "s": 1.4
+   },
+   "dur": 12,
+   "ease": "out"
+  },
+  {
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 339
+   },
+   "to": {
+    "cx": 650,
+    "cy": 430,
+    "s": 1.6
+   },
+   "dur": 22
+  },
+  {
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 382
+   },
+   "to": {
+    "cx": 650,
+    "cy": 402,
+    "s": 1.8
+   },
+   "dur": 138,
+   "ease": "linear"
+  },
+  {
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 470
+   },
+   "dur": 26,
+   "punch": true
+  },
+  {
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "off": -15,
+    "f": 518
+   },
+   "to": {
+    "cx": 520,
+    "cy": 480,
+    "s": 1.6
+   },
+   "dur": 20
+  },
+  {
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "off": -9,
+    "f": 698
+   },
+   "to": {
+    "cx": 510,
+    "cy": 500,
+    "s": 1.75
+   },
+   "dur": 110
+  },
+  {
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 797
+   },
+   "dur": 26,
+   "punch": true
+  },
+  {
+   "at": {
+    "w": "palavra",
+    "n": 4,
+    "f": 849
+   },
+   "to": {
+    "cx": 800,
+    "cy": 458,
+    "s": 1.45
+   },
+   "dur": 16
+  },
+  {
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 874
+   },
+   "dur": 26,
+   "punch": true
+  },
+  {
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 898
+   },
+   "dur": 26,
+   "punch": true
+  },
+  {
+   "at": {
+    "f": 960
+   },
+   "to": {
+    "cx": 650,
+    "cy": 340,
+    "s": 1.6
+   },
+   "dur": 16
+  },
+  {
+   "at": {
+    "f": 1018
+   },
+   "to": {
+    "cx": 650,
+    "cy": 362,
+    "s": 1.6
+   },
+   "dur": 16
+  }
+ ],
+ "tokenMoves": [
+  {
+   "at": {
+    "f": 0
+   },
+   "name": "rock",
+   "args": {
+    "for": 22,
+    "deg": 5
+   }
+  },
+  {
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 21
+   },
+   "name": "punch"
+  },
+  {
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "off": 4,
+    "f": 36
+   },
+   "name": "rock",
+   "args": {
+    "for": 40
+   }
+  },
+  {
+   "at": {
+    "w": "palavra",
+    "n": 2,
+    "f": 77
+   },
+   "name": "spin",
+   "dur": 12
+  },
+  {
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 90
+   },
+   "name": "sparkle",
+   "dur": 10
+  },
+  {
+   "at": {
+    "f": 103
+   },
+   "name": "blink",
+   "dur": 10
+  },
+  {
+   "at": {
+    "f": 959
+   },
+   "name": "blink",
+   "dur": 10
+  },
+  {
+   "at": {
+    "f": 1030
+   },
+   "name": "rock",
+   "args": {
+    "deg": 8
+   }
+  },
+  {
+   "at": {
+    "f": 1034
+   },
+   "name": "sparkle",
+   "dur": 10
+  },
+  {
+   "at": {
+    "f": 1082
+   },
+   "name": "sparkle",
+   "dur": 10
+  }
+ ],
+ "beats": [
+  {
+   "id": "chipFacil",
+   "el": "Chip",
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 134
+   },
+   "until": {
+    "f": 164
+   },
+   "props": {
+    "text": "TEXTO DE EXEMPLO",
+    "dock": "TL"
+   }
+  },
+  {
+   "id": "chipTudo",
+   "el": "Chip",
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 211
+   },
+   "until": {
+    "f": 247
+   },
+   "props": {
+    "text": "TEXTO DE EXEMPLO",
+    "dock": "TL"
+   }
+  },
+  {
+   "id": "scanTudo",
+   "el": "ScanLine",
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 211
+   },
+   "props": {
+    "from": 211,
+    "dur": 40
+   }
+  },
+  {
+   "id": "chipPeg",
+   "el": "Chip",
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 253
+   },
+   "until": {
+    "f": 330
+   },
+   "props": {
+    "text": "TEXTO DE EXEMPLO",
+    "dock": "TL"
+   }
+  },
+  {
+   "id": "scanThink",
+   "el": "ScanLine",
+   "at": {
+    "f": 294
+   },
+   "props": {
+    "from": 294,
+    "dur": 44,
+    "opacity": 0.5
+   }
+  },
+  {
+   "id": "focusClav",
+   "el": "BandFocus",
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 382
+   },
+   "until": {
+    "f": 520
+   },
+   "props": {
+    "rect": [
+     410,
+     275,
+     890,
+     405
+    ],
+    "level": 0.5,
+    "scans": [
+     {
+      "at": {
+       "w": "palavra",
+       "n": 1,
+       "f": 406
+      },
+      "dur": 20,
+      "dir": 1
+     },
+     {
+      "at": {
+       "w": "palavra",
+       "n": 1,
+       "f": 452
+      },
+      "dur": 16,
+      "dir": -1
+     },
+     {
+      "at": {
+       "w": "palavra",
+       "n": 1,
+       "f": 470
+      },
+      "dur": 20,
+      "dir": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "brClav",
+   "el": "Brackets",
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 382
+   },
+   "until": {
+    "f": 520
+   },
+   "props": {
+    "rect": [
+     410,
+     275,
+     890,
+     405
+    ]
+   }
+  },
+  {
+   "id": "chipClav",
+   "el": "Chip",
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 382
+   },
+   "until": {
+    "f": 520
+   },
+   "props": {
+    "text": "TEXTO DE EXEMPLO",
+    "dock": "BL"
+   }
+  },
+  {
+   "id": "haloRibs",
+   "el": "CursorHalo",
+   "at": {
+    "f": 571
+   },
+   "props": {
+    "from": 571,
+    "to": 812
+   }
+  },
+  {
+   "id": "trRib1",
+   "el": "Trace",
+   "at": {
+    "f": 571
+   },
+   "until": {
+    "w": "palavra",
+    "n": 4,
+    "f": 849
+   },
+   "props": {
+    "points": [
+     [
+      550,
+      335
+     ],
+     [
+      532,
+      339
+     ],
+     [
+      514,
+      348
+     ],
+     [
+      496,
+      360
+     ],
+     [
+      478,
+      376
+     ]
+    ],
+    "draw": 20
+   }
+  },
+  {
+   "id": "trRib2",
+   "el": "Trace",
+   "at": {
+    "f": 650
+   },
+   "until": {
+    "w": "palavra",
+    "n": 4,
+    "f": 849
+   },
+   "props": {
+    "points": [
+     [
+      572,
+      366
+     ],
+     [
+      546,
+      372
+     ],
+     [
+      519,
+      383
+     ],
+     [
+      493,
+      395
+     ],
+     [
+      466,
+      406
+     ],
+     [
+      440,
+      412
+     ]
+    ],
+    "draw": 22
+   }
+  },
+  {
+   "id": "trRib3",
+   "el": "Trace",
+   "at": {
+    "f": 698
+   },
+   "until": {
+    "w": "palavra",
+    "n": 4,
+    "f": 849
+   },
+   "props": {
+    "points": [
+     [
+      568,
+      410
+     ],
+     [
+      540,
+      420
+     ],
+     [
+      511,
+      430
+     ],
+     [
+      483,
+      441
+     ],
+     [
+      454,
+      452
+     ],
+     [
+      426,
+      463
+     ]
+    ],
+    "draw": 18
+   }
+  },
+  {
+   "id": "trRib4",
+   "el": "Trace",
+   "at": {
+    "f": 726
+   },
+   "until": {
+    "w": "palavra",
+    "n": 4,
+    "f": 849
+   },
+   "props": {
+    "points": [
+     [
+      568,
+      456
+     ],
+     [
+      540,
+      465
+     ],
+     [
+      511,
+      475
+     ],
+     [
+      483,
+      485
+     ],
+     [
+      454,
+      496
+     ],
+     [
+      426,
+      508
+     ]
+    ],
+    "draw": 12
+   }
+  },
+  {
+   "id": "trRib5",
+   "el": "Trace",
+   "at": {
+    "f": 744
+   },
+   "until": {
+    "w": "palavra",
+    "n": 4,
+    "f": 849
+   },
+   "props": {
+    "points": [
+     [
+      568,
+      495
+     ],
+     [
+      540,
+      507
+     ],
+     [
+      511,
+      519
+     ],
+     [
+      483,
+      530
+     ],
+     [
+      454,
+      540
+     ],
+     [
+      426,
+      550
+     ]
+    ],
+    "draw": 12
+   }
+  },
+  {
+   "id": "trRib6",
+   "el": "Trace",
+   "at": {
+    "f": 762
+   },
+   "until": {
+    "w": "palavra",
+    "n": 4,
+    "f": 849
+   },
+   "props": {
+    "points": [
+     [
+      568,
+      540
+     ],
+     [
+      540,
+      552
+     ],
+     [
+      511,
+      564
+     ],
+     [
+      483,
+      575
+     ],
+     [
+      454,
+      585
+     ],
+     [
+      426,
+      595
+     ]
+    ],
+    "draw": 12
+   }
+  },
+  {
+   "id": "trRib7",
+   "el": "Trace",
+   "at": {
+    "f": 780
+   },
+   "until": {
+    "w": "palavra",
+    "n": 4,
+    "f": 849
+   },
+   "props": {
+    "points": [
+     [
+      568,
+      580
+     ],
+     [
+      540,
+      592
+     ],
+     [
+      511,
+      603
+     ],
+     [
+      483,
+      614
+     ],
+     [
+      454,
+      625
+     ],
+     [
+      426,
+      635
+     ]
+    ],
+    "draw": 10
+   }
+  },
+  {
+   "id": "trRib8",
+   "el": "Trace",
+   "at": {
+    "f": 794
+   },
+   "until": {
+    "w": "palavra",
+    "n": 4,
+    "f": 849
+   },
+   "props": {
+    "points": [
+     [
+      566,
+      626
+     ],
+     [
+      538,
+      636
+     ],
+     [
+      510,
+      646
+     ],
+     [
+      482,
+      656
+     ],
+     [
+      454,
+      666
+     ],
+     [
+      426,
+      675
+     ]
+    ],
+    "draw": 12
+   }
+  },
+  {
+   "id": "tick1",
+   "el": "CountTick",
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 554
+   },
+   "until": {
+    "w": "palavra",
+    "n": 4,
+    "f": 849
+   },
+   "props": {
+    "n": 1,
+    "pos": [
+     350,
+     372
+    ],
+    "leaderTo": [
+     478,
+     376
+    ],
+    "trace": "texto"
+   }
+  },
+  {
+   "id": "tick2",
+   "el": "CountTick",
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 652
+   },
+   "until": {
+    "w": "palavra",
+    "n": 4,
+    "f": 849
+   },
+   "props": {
+    "n": 2,
+    "pos": [
+     350,
+     414
+    ],
+    "leaderTo": [
+     440,
+     412
+    ],
+    "trace": "texto"
+   }
+  },
+  {
+   "id": "tick3",
+   "el": "CountTick",
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 707
+   },
+   "until": {
+    "w": "palavra",
+    "n": 4,
+    "f": 849
+   },
+   "props": {
+    "n": 3,
+    "pos": [
+     350,
+     463
+    ],
+    "leaderTo": [
+     426,
+     463
+    ],
+    "trace": "texto"
+   }
+  },
+  {
+   "id": "tick4",
+   "el": "CountTick",
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 731
+   },
+   "until": {
+    "w": "palavra",
+    "n": 4,
+    "f": 849
+   },
+   "props": {
+    "n": 4,
+    "pos": [
+     350,
+     508
+    ],
+    "leaderTo": [
+     426,
+     508
+    ],
+    "trace": "texto"
+   }
+  },
+  {
+   "id": "tick5",
+   "el": "CountTick",
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 751
+   },
+   "until": {
+    "w": "palavra",
+    "n": 4,
+    "f": 849
+   },
+   "props": {
+    "n": 5,
+    "pos": [
+     350,
+     550
+    ],
+    "leaderTo": [
+     426,
+     550
+    ],
+    "trace": "texto"
+   }
+  },
+  {
+   "id": "tick6",
+   "el": "CountTick",
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 764
+   },
+   "until": {
+    "w": "palavra",
+    "n": 4,
+    "f": 849
+   },
+   "props": {
+    "n": 6,
+    "pos": [
+     350,
+     595
+    ],
+    "leaderTo": [
+     426,
+     595
+    ],
+    "trace": "texto"
+   }
+  },
+  {
+   "id": "tick7",
+   "el": "CountTick",
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 781
+   },
+   "until": {
+    "w": "palavra",
+    "n": 4,
+    "f": 849
+   },
+   "props": {
+    "n": 7,
+    "pos": [
+     350,
+     635
+    ],
+    "leaderTo": [
+     426,
+     635
+    ],
+    "trace": "texto"
+   }
+  },
+  {
+   "id": "tick8",
+   "el": "CountTick",
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 797
+   },
+   "until": {
+    "w": "palavra",
+    "n": 4,
+    "f": 849
+   },
+   "props": {
+    "n": 8,
+    "pos": [
+     350,
+     675
+    ],
+    "leaderTo": [
+     426,
+     675
+    ],
+    "trace": "texto"
+   }
+  },
+  {
+   "id": "haloShoulder",
+   "el": "CursorHalo",
+   "at": {
+    "f": 866
+   },
+   "props": {
+    "from": 866,
+    "to": 944
+   }
+  },
+  {
+   "id": "chipOmbro",
+   "el": "Chip",
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 874
+   },
+   "until": "end",
+   "props": {
+    "text": "TEXTO DE EXEMPLO",
+    "dock": "BL",
+    "row": true
+   }
+  },
+  {
+   "id": "chipOmo",
+   "el": "Chip",
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 898
+   },
+   "until": "end",
+   "props": {
+    "text": "TEXTO DE EXEMPLO",
+    "dock": "BL",
+    "row": true
+   }
+  },
+  {
+   "id": "brEnd",
+   "el": "Brackets",
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 964
+   },
+   "until": "end",
+   "props": {
+    "rect": [
+     410,
+     275,
+     890,
+     405
+    ],
+    "breathe": true
+   }
+  },
+  {
+   "id": "chipCadê",
+   "el": "Chip",
+   "at": {
+    "w": "palavra",
+    "n": 2,
+    "f": 985
+   },
+   "until": "end",
+   "props": {
+    "text": "TEXTO DE EXEMPLO",
+    "dock": "BL",
+    "row": true,
+    "glyph": [
+     {
+      "at": {
+       "w": "palavra",
+       "n": 2,
+       "f": 985
+      },
+      "kind": "question"
+     }
+    ]
+   }
+  }
+ ],
+ "captions": {
+  "hide": [
+   [
+    0,
+    64
+   ],
+   [
+    960,
+    1008
+   ]
+  ],
+  "accent": [
+   {
+    "w": "palavra",
+    "n": 2,
+    "f": 77
+   },
+   {
+    "w": "palavra",
+    "n": 1,
+    "f": 178
+   },
+   {
+    "w": "palavra",
+    "n": 1,
+    "f": 217
+   },
+   {
+    "w": "palavra",
+    "n": 1,
+    "f": 382
+   },
+   {
+    "w": "palavra",
+    "n": 1,
+    "f": 470
+   },
+   {
+    "w": "palavra",
+    "n": 1,
+    "f": 554
+   },
+   {
+    "w": "palavra",
+    "n": 1,
+    "f": 652
+   },
+   {
+    "w": "palavra",
+    "n": 1,
+    "f": 797
+   },
+   {
+    "w": "palavra",
+    "n": 1,
+    "f": 874
+   },
+   {
+    "w": "palavra",
+    "n": 1,
+    "f": 898
+   }
+  ],
+  "emphasis": [
+   {
+    "w": "palavra",
+    "n": 1,
+    "f": 253
+   }
+  ]
+ },
+ "closing": {
+  "variant": "A",
+  "preRoll": 960,
+  "size": 104,
+  "lines": [
+   "TEXTO DE EXEMPLO",
+   "TEXTO DE EXEMPLO"
+  ],
+  "accent": "TEXTO DE EXEMPLO",
+  "wordSync": [
+   {
+    "anchor": {
+     "w": "palavra",
+     "n": 1,
+     "f": 964
+    },
+    "line": 0,
+    "word": 0
+   },
+   {
+    "anchor": {
+     "w": "palavra",
+     "n": 3,
+     "f": 982
+    },
+    "line": 0,
+    "word": 1
+   },
+   {
+    "anchor": {
+     "w": "palavra",
+     "n": 2,
+     "f": 985
+    },
+    "line": 1,
+    "word": 0
+   }
+  ],
+  "slotCam": {
+   "cx": 650,
+   "cy": 340,
+   "s": 1.6
+  },
+  "keep": [
+   "brEnd",
+   "chipOmbro",
+   "chipOmo",
+   "chipCadê"
+  ],
+  "propMove": "spin"
+ },
+ "sounds": [
+  {
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 382
+   },
+   "cue": "tick"
+  },
+  {
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 470
+   },
+   "cue": "tick"
+  }
+ ],
+ "looks": {
+  "tela-cheia": {
+   "look": {
+    "layout": {
+     "stage": {
+      "hook": {
+       "x0": 0,
+       "x1": 1080,
+       "top": 352,
+       "bottom": 1050
+      },
+      "body": {
+       "x0": 0,
+       "x1": 1080,
+       "top": 360,
+       "bottom": 1210
+      }
+     },
+     "bleed": {
+      "hookTop": 332,
+      "bodyTop": 345,
+      "closeTop": 575,
+      "topFade": 140
+     },
+     "headline": {
+      "bottom": 1430
+     },
+     "hookCaptions": false
+    }
+   },
+   "hook": {
+    "size": 108,
+    "tokenHome": {
+     "gap": 40
+    },
+    "slot": {
+     "cam": [
+      {
+       "cx": 640,
+       "cy": 410,
+       "s": 1.75
+      },
+      {
+       "cx": 640,
+       "cy": 410,
+       "s": 1.75
+      }
+     ]
+    }
+   },
+   "camera": [
+    {
+     "at": {
+      "f": 104
+     },
+     "to": {
+      "cx": 640,
+      "cy": 455,
+      "s": 1.4
+     },
+     "dur": 16
+    },
+    {
+     "at": {
+      "w": "palavra",
+      "n": 1,
+      "f": 211
+     },
+     "to": {
+      "cx": 640,
+      "cy": 402,
+      "s": 1.8
+     },
+     "dur": 10,
+     "ease": "out"
+    },
+    {
+     "at": {
+      "f": 221
+     },
+     "to": {
+      "cx": 640,
+      "cy": 510,
+      "s": 1.8
+     },
+     "dur": 30
+    },
+    {
+     "at": {
+      "w": "palavra",
+      "n": 1,
+      "f": 253
+     },
+     "to": {
+      "cx": 640,
+      "cy": 455,
+      "s": 1.4
+     },
+     "dur": 12,
+     "ease": "out"
+    },
+    {
+     "at": {
+      "w": "palavra",
+      "n": 1,
+      "f": 339
+     },
+     "to": {
+      "cx": 650,
+      "cy": 430,
+      "s": 1.45
+     },
+     "dur": 22
+    },
+    {
+     "at": {
+      "w": "palavra",
+      "n": 1,
+      "f": 382
+     },
+     "to": {
+      "cx": 650,
+      "cy": 402,
+      "s": 1.6
+     },
+     "dur": 138,
+     "ease": "linear"
+    },
+    {
+     "at": {
+      "w": "palavra",
+      "n": 1,
+      "f": 470
+     },
+     "dur": 26,
+     "punch": true
+    },
+    {
+     "at": {
+      "w": "palavra",
+      "n": 1,
+      "off": -15,
+      "f": 518
+     },
+     "to": {
+      "cx": 520,
+      "cy": 480,
+      "s": 1.6
+     },
+     "dur": 20
+    },
+    {
+     "at": {
+      "w": "palavra",
+      "n": 1,
+      "off": -9,
+      "f": 698
+     },
+     "to": {
+      "cx": 510,
+      "cy": 500,
+      "s": 1.75
+     },
+     "dur": 110
+    },
+    {
+     "at": {
+      "w": "palavra",
+      "n": 1,
+      "f": 797
+     },
+     "dur": 26,
+     "punch": true
+    },
+    {
+     "at": {
+      "w": "palavra",
+      "n": 4,
+      "f": 849
+     },
+     "to": {
+      "cx": 800,
+      "cy": 458,
+      "s": 1.45
+     },
+     "dur": 16
+    },
+    {
+     "at": {
+      "w": "palavra",
+      "n": 1,
+      "f": 874
+     },
+     "dur": 26,
+     "punch": true
+    },
+    {
+     "at": {
+      "w": "palavra",
+      "n": 1,
+      "f": 898
+     },
+     "dur": 26,
+     "punch": true
+    },
+    {
+     "at": {
+      "f": 960
+     },
+     "to": {
+      "cx": 650,
+      "cy": 340,
+      "s": 1.5
+     },
+     "dur": 16
+    },
+    {
+     "at": {
+      "f": 1018
+     },
+     "to": {
+      "cx": 650,
+      "cy": 370,
+      "s": 1.5
+     },
+     "dur": 16
+    }
+   ],
+   "captions": {
+    "hide": [
+     [
+      0,
+      116
+     ],
+     [
+      960,
+      1008
+     ]
+    ]
+   },
+   "closing": {
+    "slotCam": {
+     "cx": 650,
+     "cy": 340,
+     "s": 1.5
+    },
+    "keep": [
+     "brEnd",
+     "chipOmbro",
+     "chipOmo",
+     "chipCadê",
+     "filmFeather"
+    ]
+   },
+   "addBeats": [
+    {
+     "id": "hookCurtain",
+     "el": "HookCurtain",
+     "at": {
+      "f": 98
+     },
+     "until": {
+      "f": 111
+     },
+     "props": {}
+    },
+    {
+     "id": "filmFeather",
+     "el": "FilmFeather",
+     "at": {
+      "f": 0
+     },
+     "until": "end",
+     "props": {
+      "rect": [
+       120,
+       165,
+       1248,
+       746
+      ]
+     }
+    }
+   ],
+   "patchBeats": {
+    "focusClav": null
+   }
+  }
+ }
+}

@@ -1,0 +1,538 @@
+{
+ "id": "c4",
+ "format": "alt",
+ "video": "c4/video.mp4",
+ "data": "c4.json",
+ "cursor": "cursor-c4.json",
+ "frames": 1111,
+ "closingFrames": 102,
+ "films": [
+  {
+   "id": "F",
+   "rect": [
+    212,
+    50,
+    1146,
+    878
+   ]
+  }
+ ],
+ "face": {
+  "still": 495
+ },
+ "panelFill": 0.85,
+ "cams": {
+  "HOOK": {
+   "cx": 679,
+   "cy": 330,
+   "s": 1.05
+  },
+  "HOOK2": {
+   "cx": 679,
+   "cy": 430,
+   "s": 1.05
+  },
+  "BASE": {
+   "cx": 679,
+   "cy": 464,
+   "s": 1.05
+  },
+  "CASE": {
+   "cx": 679,
+   "cy": 410,
+   "s": 1.2
+  },
+  "LUNGS": {
+   "cx": 679,
+   "cy": 420,
+   "s": 1.17
+  },
+  "SPINE": {
+   "cx": 725,
+   "cy": 470,
+   "s": 1.25
+  },
+  "END": {
+   "cx": 725,
+   "cy": 500,
+   "s": 1.25
+  }
+ },
+ "hook": {
+  "lines": [
+   "texto",
+   "TEXTO DE EXEMPLO",
+   "TEXTO DE EXEMPLO"
+  ],
+  "accent": "TEXTO DE EXEMPLO",
+  "quoted": false,
+  "size": 96,
+  "exit": 104,
+  "cam": "TEXTO DE EXEMPLO",
+  "camTo": "TEXTO DE EXEMPLO",
+  "push": 1.12,
+  "accentAt": {
+   "w": "palavra",
+   "n": 1,
+   "f": 33
+  }
+ },
+ "kicker": [
+  {
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 56
+   },
+   "text": "TEXTO DE EXEMPLO"
+  },
+  {
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 195
+   },
+   "text": "TEXTO DE EXEMPLO"
+  },
+  {
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 238
+   },
+   "text": "TEXTO DE EXEMPLO"
+  },
+  {
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 279
+   },
+   "text": "TEXTO DE EXEMPLO"
+  }
+ ],
+ "camera": [
+  {
+   "at": {
+    "f": 104
+   },
+   "to": "TEXTO DE EXEMPLO",
+   "dur": 18,
+   "ease": "out"
+  },
+  {
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 186
+   },
+   "to": "TEXTO DE EXEMPLO",
+   "dur": 40
+  },
+  {
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 349
+   },
+   "to": "TEXTO DE EXEMPLO",
+   "dur": 24
+  },
+  {
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 641
+   },
+   "to": "TEXTO DE EXEMPLO",
+   "dur": 24
+  },
+  {
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 787
+   },
+   "to": "TEXTO DE EXEMPLO",
+   "dur": 24
+  },
+  {
+   "at": {
+    "f": 916
+   },
+   "to": "TEXTO DE EXEMPLO",
+   "dur": 24
+  },
+  {
+   "at": {
+    "f": 1007
+   },
+   "to": "TEXTO DE EXEMPLO",
+   "dur": 18
+  }
+ ],
+ "punches": [
+  {
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 122
+   },
+   "amount": 1.05
+  },
+  {
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 412
+   },
+   "amount": 1.04
+  },
+  {
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 458
+   },
+   "amount": 1.06
+  },
+  {
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 893
+   },
+   "amount": 1.05
+  }
+ ],
+ "beats": [
+  {
+   "id": "scanHook",
+   "el": "Scan",
+   "at": {
+    "f": 72
+   },
+   "props": {
+    "dur": 26
+   }
+  },
+  {
+   "id": "scanRx",
+   "el": "Scan",
+   "at": {
+    "w": "palavra",
+    "n": 2,
+    "f": 367
+   },
+   "props": {
+    "dur": 30
+   }
+  },
+  {
+   "id": "rehang",
+   "el": "Rehang",
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 488
+   },
+   "props": {
+    "dy": 70,
+    "deg": 4
+   }
+  },
+  {
+   "id": "lupa",
+   "el": "Lupa",
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 510
+   },
+   "until": "end",
+   "props": {
+    "d": 300,
+    "lens": 1.7,
+    "path": [
+     {
+      "f": 510,
+      "pt": [
+       500,
+       170
+      ]
+     },
+     {
+      "f": 560,
+      "pt": [
+       470,
+       380
+      ]
+     },
+     {
+      "f": 600,
+      "pt": [
+       520,
+       560
+      ]
+     },
+     {
+      "f": 630,
+      "pt": [
+       700,
+       230
+      ]
+     },
+     {
+      "f": 642,
+      "pt": [
+       880,
+       200
+      ]
+     },
+     {
+      "f": 665,
+      "pt": [
+       930,
+       400
+      ]
+     },
+     {
+      "f": 690,
+      "pt": [
+       900,
+       560
+      ]
+     },
+     {
+      "f": 740,
+      "pt": [
+       860,
+       330
+      ]
+     },
+     {
+      "f": 787,
+      "pt": [
+       930,
+       150
+      ]
+     },
+     {
+      "f": 826,
+      "pt": [
+       450,
+       140
+      ]
+     }
+    ],
+    "park": {
+     "f": 856,
+     "pt": [
+      300,
+      130
+     ],
+     "d": 130
+    },
+    "follow": {
+     "cursor": [
+      916,
+      1110
+     ],
+     "lens": 1.15,
+     "d": 250
+    },
+    "rimAccentAt": {
+     "w": "palavra",
+     "n": 1,
+     "f": 1094
+    }
+   }
+  },
+  {
+   "id": "label",
+   "el": "BorderLabel",
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 641
+   },
+   "until": {
+    "f": 1007
+   },
+   "props": {
+    "text": "TEXTO DE EXEMPLO",
+    "rolls": [
+     {
+      "at": {
+       "w": "palavra",
+       "n": 1,
+       "f": 787
+      },
+      "text": "TEXTO DE EXEMPLO"
+     },
+     {
+      "at": {
+       "w": "palavra",
+       "n": 1,
+       "f": 926
+      },
+      "text": "TEXTO DE EXEMPLO"
+     }
+    ],
+    "glyph": [
+     {
+      "at": {
+       "w": "palavra",
+       "n": 1,
+       "f": 673
+      },
+      "kind": "check"
+     },
+     {
+      "at": {
+       "w": "palavra",
+       "n": 1,
+       "f": 833
+      },
+      "kind": "check"
+     },
+     {
+      "at": {
+       "w": "palavra",
+       "n": 1,
+       "f": 873
+      },
+      "kind": "question"
+     }
+    ]
+   }
+  }
+ ],
+ "captions": {
+  "hide": [
+   [
+    1025,
+    1111
+   ]
+  ],
+  "keywords": [
+   {
+    "w": "palavra",
+    "n": 1,
+    "f": 56
+   },
+   {
+    "w": "palavra",
+    "n": 1,
+    "f": 195
+   },
+   {
+    "w": "palavra",
+    "n": 1,
+    "f": 238
+   },
+   {
+    "w": "palavra",
+    "n": 1,
+    "f": 458
+   },
+   {
+    "w": "palavra",
+    "n": 1,
+    "f": 510
+   },
+   {
+    "w": "palavra",
+    "n": 1,
+    "f": 627
+   },
+   {
+    "w": "palavra",
+    "n": 1,
+    "f": 641
+   },
+   {
+    "w": "palavra",
+    "n": 1,
+    "f": 802
+   },
+   {
+    "w": "palavra",
+    "n": 1,
+    "f": 945
+   }
+  ]
+ },
+ "closing": {
+  "preRoll": 1007,
+  "lines": [
+   "TEXTO DE EXEMPLO",
+   "TEXTO DE EXEMPLO",
+   "texto"
+  ],
+  "accent": "texto",
+  "size": 88,
+  "wordSync": [
+   {
+    "anchor": {
+     "w": "palavra",
+     "n": 1,
+     "f": 1025
+    },
+    "line": 0,
+    "word": 0
+   },
+   {
+    "anchor": {
+     "w": "palavra",
+     "n": 1,
+     "f": 1031
+    },
+    "line": 0,
+    "word": 1
+   },
+   {
+    "anchor": {
+     "w": "palavra",
+     "n": 2,
+     "f": 1037
+    },
+    "line": 0,
+    "word": 2
+   },
+   {
+    "anchor": {
+     "w": "palavra",
+     "n": 1,
+     "f": 1058
+    },
+    "line": 1,
+    "word": 0
+   },
+   {
+    "anchor": {
+     "w": "palavra",
+     "n": 1,
+     "f": 1080
+    },
+    "line": 1,
+    "word": 1
+   },
+   {
+    "anchor": {
+     "w": "palavra",
+     "n": 1,
+     "f": 1094
+    },
+    "line": 2,
+    "word": 0
+   }
+  ],
+  "cam": "TEXTO DE EXEMPLO",
+  "keep": [
+   "lupa"
+  ],
+  "faceStill": 1104
+ },
+ "noCheckAfter": 873
+}

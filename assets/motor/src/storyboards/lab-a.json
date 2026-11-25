@@ -1,0 +1,828 @@
+{
+ "id": "lab-a",
+ "format": "primary",
+ "video": "c5/video.mp4",
+ "data": "c5.json",
+ "cursor": "cursor-c5.json",
+ "frames": 453,
+ "closingFrames": 102,
+ "films": [
+  {
+   "id": "F",
+   "rect": [
+    102,
+    30,
+    1256,
+    878
+   ]
+  }
+ ],
+ "patches": [
+  {
+   "rect": [
+    100,
+    28,
+    322,
+    240
+   ],
+   "fill": "stage"
+  }
+ ],
+ "face": {
+  "still": 330
+ },
+ "prop": {
+  "component": "RibArc"
+ },
+ "hook": {
+  "kicker": "TEXTO DE EXEMPLO",
+  "lines": [
+   "TEXTO DE EXEMPLO",
+   "TEXTO DE EXEMPLO",
+   "TEXTO DE EXEMPLO"
+  ],
+  "accent": "TEXTO DE EXEMPLO",
+  "quoted": false,
+  "size": 84,
+  "accentAt": {
+   "f": 10
+  },
+  "tokenMove": "loop",
+  "exit": 96,
+  "slot": {
+   "cam": [
+    {
+     "cx": 900,
+     "cy": 440,
+     "s": 1.4
+    },
+    {
+     "cx": 900,
+     "cy": 440,
+     "s": 1.47
+    }
+   ]
+  }
+ },
+ "hud": {
+  "tag": [
+   "TEXTO DE EXEMPLO",
+   "TEXTO DE EXEMPLO"
+  ],
+  "readouts": []
+ },
+ "camera": [
+  {
+   "at": {
+    "f": 96
+   },
+   "to": {
+    "cx": 679,
+    "cy": 455,
+    "s": 0.95
+   },
+   "dur": 16
+  },
+  {
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 158
+   },
+   "to": {
+    "cx": 830,
+    "cy": 470,
+    "s": 1.25
+   },
+   "dur": 18
+  },
+  {
+   "at": {
+    "f": 250
+   },
+   "to": {
+    "cx": 830,
+    "cy": 470,
+    "s": 1.7
+   },
+   "dur": 16
+  },
+  {
+   "at": {
+    "f": 290
+   },
+   "to": {
+    "cx": 830,
+    "cy": 470,
+    "s": 1.25
+   },
+   "dur": 16
+  },
+  {
+   "at": {
+    "f": 453
+   },
+   "to": {
+    "cx": 870,
+    "cy": 460,
+    "s": 1.3
+   },
+   "dur": 16
+  }
+ ],
+ "beats": [
+  {
+   "id": "chipBuild",
+   "el": "Chip",
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 38
+   },
+   "until": {
+    "f": 96
+   },
+   "props": {
+    "text": "TEXTO DE EXEMPLO",
+    "dock": "TL",
+    "build": [
+     {
+      "at": {
+       "w": "palavra",
+       "n": 1,
+       "f": 58
+      },
+      "text": "TEXTO DE EXEMPLO"
+     }
+    ]
+   }
+  },
+  {
+   "id": "f1",
+   "el": "Chip",
+   "at": {
+    "f": 30
+   },
+   "until": {
+    "f": 150
+   },
+   "props": {
+    "text": "TEXTO DE EXEMPLO",
+    "dock": "BL",
+    "row": true,
+    "exit": "texto",
+    "tick": true
+   }
+  },
+  {
+   "id": "f2",
+   "el": "Chip",
+   "at": {
+    "f": 50
+   },
+   "until": {
+    "f": 150
+   },
+   "props": {
+    "text": "TEXTO DE EXEMPLO",
+    "dock": "BL",
+    "row": true,
+    "exit": "texto"
+   }
+  },
+  {
+   "id": "f3",
+   "el": "Chip",
+   "at": {
+    "f": 70
+   },
+   "until": {
+    "f": 150
+   },
+   "props": {
+    "text": "TEXTO DE EXEMPLO",
+    "dock": "BL",
+    "row": true,
+    "exit": "texto"
+   }
+  },
+  {
+   "id": "f4",
+   "el": "Chip",
+   "at": {
+    "f": 104
+   },
+   "until": {
+    "f": 150
+   },
+   "props": {
+    "text": "TEXTO DE EXEMPLO",
+    "dock": "BL",
+    "row": true,
+    "exit": "texto"
+   }
+  },
+  {
+   "id": "cardTL",
+   "el": "PropCard",
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 128
+   },
+   "until": {
+    "f": 296
+   },
+   "props": {
+    "dock": "TL",
+    "propSize": 150,
+    "moves": [
+     {
+      "at": {
+       "f": 136
+      },
+      "name": "flatten"
+     },
+     {
+      "at": {
+       "f": 200
+      },
+      "name": "curve"
+     },
+     {
+      "at": {
+       "f": 230
+      },
+      "name": "flatten"
+     }
+    ]
+   }
+  },
+  {
+   "id": "chipPin",
+   "el": "Chip",
+   "at": {
+    "f": 120
+   },
+   "until": {
+    "f": 245
+   },
+   "props": {
+    "text": "TEXTO DE EXEMPLO",
+    "body": {
+     "x": 300,
+     "y": 700
+    },
+    "pin": [
+     990,
+     450
+    ],
+    "pinAt": {
+     "f": 160
+    },
+    "protect": [
+     880,
+     380,
+     1085,
+     560
+    ],
+    "rolls": [
+     {
+      "at": {
+       "f": 140
+      },
+      "text": "TEXTO DE EXEMPLO"
+     },
+     {
+      "at": {
+       "f": 200
+      },
+      "text": "TEXTO DE EXEMPLO"
+     }
+    ],
+    "pulses": [
+     {
+      "f": 225
+     }
+    ]
+   }
+  },
+  {
+   "id": "cardBRl",
+   "el": "PropCard",
+   "at": {
+    "f": 160
+   },
+   "until": {
+    "f": 240
+   },
+   "props": {
+    "dock": "BR",
+    "label": "TEXTO DE EXEMPLO",
+    "labelAt": {
+     "f": 175
+    },
+    "rolls": [
+     {
+      "at": {
+       "f": 205
+      },
+      "text": "TEXTO DE EXEMPLO"
+     }
+    ],
+    "moves": [
+     {
+      "at": {
+       "f": 190
+      },
+      "name": "flatten"
+     }
+    ],
+    "sound": false
+   }
+  },
+  {
+   "id": "trA",
+   "el": "Trace",
+   "at": {
+    "f": 180
+   },
+   "until": {
+    "f": 285
+   },
+   "props": {
+    "points": [
+     [
+      790,
+      360
+     ],
+     [
+      740,
+      366
+     ],
+     [
+      700,
+      380
+     ],
+     [
+      680,
+      384
+     ]
+    ],
+    "draw": 14,
+    "headDot": true
+   }
+  },
+  {
+   "id": "ct1",
+   "el": "CountTick",
+   "at": {
+    "f": 180
+   },
+   "until": {
+    "f": 285
+   },
+   "props": {
+    "n": 1,
+    "pos": [
+     560,
+     383
+    ],
+    "leaderTo": [
+     680,
+     384
+    ],
+    "trace": "texto",
+    "fadeTo": [
+     {
+      "at": {
+       "f": 262
+      },
+      "opacity": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "id": "ct2",
+   "el": "CountTick",
+   "at": {
+    "f": 200
+   },
+   "until": {
+    "f": 285
+   },
+   "props": {
+    "n": 2,
+    "pos": [
+     560,
+     438
+    ],
+    "leaderTo": [
+     690,
+     446
+    ],
+    "leaderAt": {
+     "f": 212
+    },
+    "fadeTo": [
+     {
+      "at": {
+       "f": 262
+      },
+      "opacity": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "id": "ct3",
+   "el": "CountTick",
+   "at": {
+    "f": 220
+   },
+   "until": {
+    "f": 285
+   },
+   "props": {
+    "n": 3,
+    "pos": [
+     560,
+     493
+    ],
+    "leaderTo": [
+     700,
+     505
+    ],
+    "fadeTo": [
+     {
+      "at": {
+       "f": 262
+      },
+      "opacity": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "id": "k1",
+   "el": "Chip",
+   "at": {
+    "f": 180
+   },
+   "until": {
+    "f": 275
+   },
+   "props": {
+    "text": "TEXTO DE EXEMPLO",
+    "dock": "BL",
+    "glyph": [
+     {
+      "at": {
+       "f": 196
+      },
+      "kind": "check"
+     },
+     {
+      "at": {
+       "f": 232
+      },
+      "kind": "wobble"
+     },
+     {
+      "at": {
+       "f": 246
+      },
+      "kind": "question"
+     }
+    ],
+    "tick": [
+     {
+      "f": 196
+     }
+    ]
+   }
+  },
+  {
+   "id": "k2",
+   "el": "Chip",
+   "at": {
+    "f": 205
+   },
+   "until": {
+    "f": 275
+   },
+   "props": {
+    "text": "TEXTO DE EXEMPLO",
+    "dock": "BL2",
+    "glyph": [
+     {
+      "at": {
+       "f": 215
+      },
+      "kind": "check"
+     },
+     {
+      "at": {
+       "f": 232
+      },
+      "kind": "wobble"
+     },
+     {
+      "at": {
+       "f": 246
+      },
+      "kind": "question"
+     }
+    ]
+   }
+  },
+  {
+   "id": "propSlide",
+   "el": "Prop",
+   "at": {
+    "f": 240
+   },
+   "until": {
+    "f": 292
+   },
+   "props": {
+    "slide": [
+     900,
+     640
+    ],
+    "size": 130,
+    "moves": [
+     {
+      "at": {
+       "f": 256
+      },
+      "name": "flatten"
+     }
+    ],
+    "sound": false
+   }
+  },
+  {
+   "id": "cardTR",
+   "el": "PropCard",
+   "at": {
+    "f": 246
+   },
+   "until": {
+    "f": 292
+   },
+   "props": {
+    "dock": "TR",
+    "sound": false
+   }
+  },
+  {
+   "id": "propFilm",
+   "el": "Prop",
+   "at": {
+    "f": 262
+   },
+   "until": {
+    "f": 300
+   },
+   "props": {
+    "screen": [
+     330,
+     560
+    ],
+    "size": 132,
+    "moves": [
+     {
+      "at": {
+       "f": 262
+      },
+      "name": "flip",
+      "dur": 20,
+      "args": {
+       "turns": 540
+      }
+     }
+    ],
+    "fly": {
+     "at": {
+      "f": 282
+     },
+     "to": [
+      990,
+      450
+     ],
+     "size": 122
+    }
+   }
+  },
+  {
+   "id": "ringFly",
+   "el": "Ring",
+   "at": {
+    "f": 296
+   },
+   "until": {
+    "f": 345
+   },
+   "props": {
+    "c": [
+     990,
+     450
+    ],
+    "rx": 49,
+    "draw": 0
+   }
+  },
+  {
+   "id": "eq",
+   "el": "EquationBar",
+   "at": {
+    "f": 300
+   },
+   "until": {
+    "f": 463
+   },
+   "props": {
+    "left": "TEXTO DE EXEMPLO",
+    "right": "TEXTO DE EXEMPLO",
+    "opAt": {
+     "f": 312
+    },
+    "rightAt": {
+     "f": 322
+    },
+    "rightDur": 30,
+    "pulses": [
+     {
+      "f": 356
+     }
+    ],
+    "qualifier": {
+     "text": "TEXTO DE EXEMPLO",
+     "at": {
+      "f": 366
+     }
+    },
+    "strikeAt": {
+     "w": "palavra",
+     "n": 1,
+     "f": 391
+    },
+    "questionAt": {
+     "w": "palavra",
+     "n": 1,
+     "f": 413
+    }
+   }
+  },
+  {
+   "id": "rA",
+   "el": "Chip",
+   "at": {
+    "f": 300
+   },
+   "until": {
+    "f": 420
+   },
+   "props": {
+    "text": "TEXTO DE EXEMPLO",
+    "dock": "TR",
+    "row": true
+   }
+  },
+  {
+   "id": "rB",
+   "el": "Chip",
+   "at": {
+    "f": 315
+   },
+   "until": {
+    "f": 420
+   },
+   "props": {
+    "text": "TEXTO DE EXEMPLO",
+    "dock": "TR",
+    "row": true
+   }
+  },
+  {
+   "id": "rC",
+   "el": "Chip",
+   "at": {
+    "f": 330
+   },
+   "until": {
+    "f": 420
+   },
+   "props": {
+    "text": "TEXTO DE EXEMPLO",
+    "dock": "TR",
+    "row": true,
+    "glyph": [
+     {
+      "at": {
+       "f": 330
+      },
+      "kind": "question"
+     }
+    ]
+   }
+  },
+  {
+   "id": "chipKeep",
+   "el": "Chip",
+   "at": {
+    "f": 426
+   },
+   "until": "end",
+   "props": {
+    "text": "TEXTO DE EXEMPLO",
+    "body": {
+     "x": 300,
+     "y": 392
+    },
+    "pin": [
+     800,
+     430
+    ]
+   }
+  },
+  {
+   "id": "chipExit",
+   "el": "Chip",
+   "at": {
+    "f": 432
+   },
+   "props": {
+    "text": "TEXTO DE EXEMPLO",
+    "dock": {
+     "x": 300,
+     "y": 470
+    }
+   }
+  },
+  {
+   "id": "field",
+   "el": "AnswerField",
+   "at": {
+    "f": 470
+   },
+   "props": {
+    "dock": "BL"
+   }
+  }
+ ],
+ "captions": {
+  "hide": [],
+  "accent": [
+   {
+    "w": "palavra",
+    "n": 1,
+    "f": 128
+   },
+   {
+    "w": "palavra",
+    "n": 1,
+    "f": 225
+   },
+   {
+    "w": "palavra",
+    "n": 1,
+    "f": 321
+   },
+   {
+    "w": "palavra",
+    "n": 1,
+    "f": 391
+   }
+  ],
+  "emphasis": [
+   {
+    "w": "palavra",
+    "n": 1,
+    "f": 396
+   }
+  ]
+ },
+ "closing": {
+  "variant": "B",
+  "size": 84,
+  "lines": [
+   "TEXTO DE EXEMPLO",
+   "TEXTO DE EXEMPLO",
+   "TEXTO DE EXEMPLO"
+  ],
+  "accent": "TEXTO DE EXEMPLO",
+  "slotCam": {
+   "cx": 870,
+   "cy": 460,
+   "s": 1.3
+  },
+  "keep": [
+   "chipKeep",
+   "field"
+  ],
+  "propMove": "loop"
+ }
+}

@@ -1,0 +1,335 @@
+{
+ "id": "c6",
+ "format": "alt",
+ "video": "c6/video.mp4",
+ "data": "c6.json",
+ "cursor": "cursor-c6.json",
+ "frames": 642,
+ "closingFrames": 102,
+ "films": [
+  {
+   "id": "F",
+   "rect": [
+    72,
+    360,
+    685,
+    878
+   ]
+  }
+ ],
+ "forbid": [
+  [
+   0,
+   0,
+   1367,
+   345
+  ],
+  [
+   700,
+   345,
+   1367,
+   912
+  ]
+ ],
+ "face": {
+  "still": 300
+ },
+ "panelFill": 0.85,
+ "cams": {
+  "HOOK": {
+   "cx": 378.5,
+   "cy": 540,
+   "s": 1.6
+  },
+  "HOOK2": {
+   "cx": 378.5,
+   "cy": 610,
+   "s": 1.6
+  },
+  "BASE": {
+   "cx": 378.5,
+   "cy": 619,
+   "s": 1.6
+  },
+  "MID": {
+   "cx": 354,
+   "cy": 610,
+   "s": 1.74
+  },
+  "FOLD": {
+   "cx": 335,
+   "cy": 600,
+   "s": 1.9
+  },
+  "END": {
+   "cx": 375,
+   "cy": 580,
+   "s": 1.62
+  }
+ },
+ "hook": {
+  "lines": [
+   "TEXTO DE EXEMPLO",
+   "TEXTO DE EXEMPLO"
+  ],
+  "accent": "TEXTO DE EXEMPLO",
+  "quoted": true,
+  "size": 96,
+  "exit": 98,
+  "cam": "TEXTO DE EXEMPLO",
+  "camTo": "TEXTO DE EXEMPLO",
+  "push": 1.1,
+  "accentAt": {
+   "w": "palavra",
+   "n": 1,
+   "f": 56
+  }
+ },
+ "kicker": [
+  {
+   "at": {
+    "f": 18
+   },
+   "text": "TEXTO DE EXEMPLO"
+  }
+ ],
+ "camera": [
+  {
+   "at": {
+    "f": 98
+   },
+   "to": "TEXTO DE EXEMPLO",
+   "dur": 18,
+   "ease": "out"
+  },
+  {
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 266
+   },
+   "to": "TEXTO DE EXEMPLO",
+   "dur": 70
+  },
+  {
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 411
+   },
+   "to": "TEXTO DE EXEMPLO",
+   "dur": 24
+  },
+  {
+   "at": {
+    "f": 568
+   },
+   "to": "TEXTO DE EXEMPLO",
+   "dur": 18
+  }
+ ],
+ "punches": [
+  {
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 182
+   },
+   "amount": 1.06
+  },
+  {
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 363
+   },
+   "amount": 1.05
+  }
+ ],
+ "beats": [
+  {
+   "id": "scanHook",
+   "el": "Scan",
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 75
+   },
+   "props": {
+    "dur": 22
+   }
+  },
+  {
+   "id": "label",
+   "el": "BorderLabel",
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 129
+   },
+   "until": {
+    "w": "palavra",
+    "n": 1,
+    "f": 411
+   },
+   "props": {
+    "text": "TEXTO DE EXEMPLO",
+    "rolls": [
+     {
+      "at": {
+       "w": "palavra",
+       "n": 1,
+       "f": 273
+      },
+      "text": "TEXTO DE EXEMPLO"
+     },
+     {
+      "at": {
+       "w": "palavra",
+       "n": 1,
+       "f": 379
+      },
+      "text": "TEXTO DE EXEMPLO"
+     }
+    ]
+   }
+  },
+  {
+   "id": "scanBody",
+   "el": "Scan",
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 237
+   },
+   "props": {
+    "dur": 28
+   }
+  },
+  {
+   "id": "trace",
+   "el": "MarkerTrace",
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "off": 4,
+    "f": 441
+   },
+   "until": "end",
+   "props": {
+    "cursor": [
+     441,
+     468
+    ],
+    "pulses": [
+     {
+      "w": "palavra",
+      "n": 1,
+      "f": 499
+     },
+     {
+      "w": "palavra",
+      "n": 1,
+      "f": 537
+     }
+    ]
+   }
+  }
+ ],
+ "captions": {
+  "hide": [
+   [
+    586,
+    642
+   ]
+  ],
+  "keywords": [
+   {
+    "w": "palavra",
+    "n": 1,
+    "f": 129
+   },
+   {
+    "w": "palavra",
+    "n": 1,
+    "f": 182
+   },
+   {
+    "w": "palavra",
+    "n": 1,
+    "f": 273
+   },
+   {
+    "w": "palavra",
+    "n": 1,
+    "f": 379
+   },
+   {
+    "w": "palavra",
+    "n": 1,
+    "f": 457
+   }
+  ]
+ },
+ "closing": {
+  "preRoll": 568,
+  "lines": [
+   "TEXTO DE EXEMPLO",
+   "TEXTO DE EXEMPLO"
+  ],
+  "accent": "TEXTO DE EXEMPLO",
+  "size": 96,
+  "wordSync": [
+   {
+    "anchor": {
+     "w": "palavra",
+     "n": 1,
+     "f": 586
+    },
+    "line": 0,
+    "word": 0
+   },
+   {
+    "anchor": {
+     "w": "palavra",
+     "n": 1,
+     "f": 589
+    },
+    "line": 0,
+    "word": 1
+   },
+   {
+    "anchor": {
+     "w": "palavra",
+     "n": 1,
+     "f": 592
+    },
+    "line": 0,
+    "word": 2
+   },
+   {
+    "anchor": {
+     "w": "palavra",
+     "n": 2,
+     "f": 619
+    },
+    "line": 1,
+    "word": 0
+   },
+   {
+    "anchor": {
+     "w": "palavra",
+     "n": 1,
+     "f": 626
+    },
+    "line": 1,
+    "word": 1
+   }
+  ],
+  "cam": "TEXTO DE EXEMPLO",
+  "keep": [
+   "trace"
+  ],
+  "faceStill": 636
+ }
+}

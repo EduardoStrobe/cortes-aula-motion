@@ -1,0 +1,1412 @@
+{
+ "id": "c1",
+ "format": "primary",
+ "video": "c1/video.mp4",
+ "data": "c1.json",
+ "cursor": "cursor-c1.json",
+ "frames": 1265,
+ "closingFrames": 102,
+ "films": [
+  {
+   "id": "A",
+   "rect": [
+    24,
+    14,
+    522,
+    475
+   ]
+  },
+  {
+   "id": "B",
+   "rect": [
+    24,
+    490,
+    522,
+    878
+   ]
+  }
+ ],
+ "covers": [
+  {
+   "id": "coverA",
+   "rect": [
+    597,
+    12,
+    1057,
+    474
+   ],
+   "label": "TEXTO DE EXEMPLO",
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 890
+   },
+   "shakes": [
+    {
+     "w": "palavra",
+     "n": 1,
+     "f": 890
+    },
+    {
+     "w": "palavra",
+     "n": 2,
+     "f": 1140
+    },
+    {
+     "f": 1273
+    }
+   ],
+   "pulses": [
+    {
+     "w": "palavra",
+     "n": 1,
+     "f": 1096
+    }
+   ]
+  },
+  {
+   "id": "coverB",
+   "rect": [
+    597,
+    496,
+    1057,
+    878
+   ],
+   "label": "TEXTO DE EXEMPLO",
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 890
+   },
+   "shakes": [
+    {
+     "w": "palavra",
+     "n": 1,
+     "f": 890
+    },
+    {
+     "w": "palavra",
+     "n": 2,
+     "f": 1140
+    }
+   ],
+   "pulses": [
+    {
+     "w": "palavra",
+     "n": 1,
+     "f": 1096
+    }
+   ]
+  }
+ ],
+ "patches": [
+  {
+   "rect": [
+    24,
+    592,
+    70,
+    658
+   ],
+   "fill": "stage"
+  }
+ ],
+ "face": {
+  "still": 15
+ },
+ "prop": {
+  "component": "CoinProp"
+ },
+ "hook": {
+  "kicker": "TEXTO DE EXEMPLO",
+  "lines": [
+   "TEXTO DE EXEMPLO",
+   "TEXTO DE EXEMPLO",
+   "TEXTO DE EXEMPLO"
+  ],
+  "accent": "TEXTO DE EXEMPLO",
+  "quoted": false,
+  "size": 104,
+  "accentAt": {
+   "w": "palavra",
+   "n": 1,
+   "f": 36
+  },
+  "tokenMove": "flip",
+  "exit": 104,
+  "slot": {
+   "panes": [
+    {
+     "rect": [
+      40,
+      716,
+      494,
+      494
+     ],
+     "films": [
+      "TEXTO DE EXEMPLO"
+     ],
+     "cam": [
+      {
+       "pin": [
+        250,
+        46
+       ],
+       "at": [
+        287,
+        786
+       ],
+       "s": 1.3
+      },
+      {
+       "pin": [
+        250,
+        46
+       ],
+       "at": [
+        287,
+        786
+       ],
+       "s": 1.55
+      }
+     ]
+    },
+    {
+     "rect": [
+      546,
+      716,
+      494,
+      494
+     ],
+     "films": [
+      "TEXTO DE EXEMPLO"
+     ],
+     "cam": [
+      {
+       "pin": [
+        269,
+        514
+       ],
+       "at": [
+        793,
+        786
+       ],
+       "s": 1.59
+      },
+      {
+       "pin": [
+        269,
+        514
+       ],
+       "at": [
+        793,
+        786
+       ],
+       "s": 1.89
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "hud": {
+  "tag": [
+   "TEXTO DE EXEMPLO"
+  ],
+  "pulses": [
+   {
+    "w": "palavra",
+    "n": 1,
+    "f": 990
+   }
+  ],
+  "readouts": [
+   {
+    "type": "countdown",
+    "label": "TEXTO DE EXEMPLO",
+    "arm": {
+     "w": "palavra",
+     "n": 1,
+     "f": 353
+    },
+    "target": {
+     "w": "palavra",
+     "n": 1,
+     "f": 678
+    },
+    "zeroTag": "TEXTO DE EXEMPLO"
+   }
+  ]
+ },
+ "camera": [
+  {
+   "at": {
+    "f": 104
+   },
+   "to": {
+    "cx": 540,
+    "cy": 446,
+    "s": 0.94
+   },
+   "dur": 16
+  },
+  {
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 122
+   },
+   "to": {
+    "cx": 273,
+    "cy": 223,
+    "s": 1.84
+   },
+   "dur": 20
+  },
+  {
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 251
+   },
+   "to": {
+    "cx": 268,
+    "cy": 220,
+    "s": 1.95
+   },
+   "dur": 16
+  },
+  {
+   "at": {
+    "w": "palavra",
+    "n": 2,
+    "f": 285
+   },
+   "punch": true,
+   "dur": 26
+  },
+  {
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 353
+   },
+   "to": {
+    "cx": 273,
+    "cy": 223,
+    "s": 1.84
+   },
+   "dur": 16
+  },
+  {
+   "at": {
+    "w": "palavra",
+    "n": 2,
+    "f": 434
+   },
+   "to": {
+    "cx": 273,
+    "cy": 690,
+    "s": 2.0
+   },
+   "dur": 16
+  },
+  {
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 464
+   },
+   "to": {
+    "cx": 255,
+    "cy": 286,
+    "s": 1.46
+   },
+   "dur": 18
+  },
+  {
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 532
+   },
+   "to": {
+    "cx": 273,
+    "cy": 223,
+    "s": 1.84
+   },
+   "dur": 18
+  },
+  {
+   "at": {
+    "w": "palavra",
+    "n": 2,
+    "f": 581
+   },
+   "to": {
+    "cx": 273,
+    "cy": 690,
+    "s": 2.0
+   },
+   "dur": 18
+  },
+  {
+   "at": {
+    "f": 622
+   },
+   "to": {
+    "cx": 255,
+    "cy": 286,
+    "s": 1.46
+   },
+   "dur": 64
+  },
+  {
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 678
+   },
+   "punch": true,
+   "dur": 26
+  },
+  {
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 754
+   },
+   "to": {
+    "cx": 273,
+    "cy": 223,
+    "s": 1.84
+   },
+   "dur": 16
+  },
+  {
+   "at": {
+    "w": "palavra",
+    "n": 2,
+    "f": 825
+   },
+   "to": {
+    "cx": 273,
+    "cy": 690,
+    "s": 2.0
+   },
+   "dur": 16
+  },
+  {
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 852
+   },
+   "to": {
+    "cx": 540,
+    "cy": 446,
+    "s": 0.94
+   },
+   "dur": 16
+  },
+  {
+   "at": {
+    "w": "palavra",
+    "n": 2,
+    "f": 938
+   },
+   "to": {
+    "cx": 273,
+    "cy": 223,
+    "s": 1.84
+   },
+   "dur": 16
+  },
+  {
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 1072
+   },
+   "to": {
+    "cx": 540,
+    "cy": 446,
+    "s": 0.94
+   },
+   "dur": 18
+  },
+  {
+   "at": {
+    "f": 1144
+   },
+   "to": {
+    "cx": 540,
+    "cy": 226,
+    "s": 0.94
+   },
+   "dur": 16
+  },
+  {
+   "at": {
+    "f": 1275
+   },
+   "to": {
+    "cx": 540,
+    "cy": 171,
+    "s": 0.915
+   },
+   "dur": 16
+  }
+ ],
+ "tokenMoves": [
+  {
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 76
+   },
+   "name": "flip",
+   "dur": 14
+  },
+  {
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 1199
+   },
+   "name": "edge",
+   "dur": 46
+  }
+ ],
+ "sounds": [
+  {
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 133
+   },
+   "cue": "pop"
+  },
+  {
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 162
+   },
+   "cue": "tick"
+  }
+ ],
+ "beats": [
+  {
+   "id": "ringHookA",
+   "el": "Ring",
+   "pane": 0,
+   "at": {
+    "f": 8
+   },
+   "until": {
+    "f": 106
+   },
+   "props": {
+    "c": [
+     250,
+     46
+    ],
+    "rx": 38,
+    "draw": 10,
+    "pulses": [
+     {
+      "f": 48
+     },
+     {
+      "w": "palavra",
+      "n": 1,
+      "f": 76
+     },
+     {
+      "f": 94
+     }
+    ]
+   }
+  },
+  {
+   "id": "ringHookB",
+   "el": "Ring",
+   "pane": 1,
+   "at": {
+    "f": 8
+   },
+   "until": {
+    "f": 106
+   },
+   "props": {
+    "c": [
+     269,
+     514
+    ],
+    "rx": 32,
+    "draw": 10,
+    "pulses": [
+     {
+      "f": 60
+     },
+     {
+      "w": "palavra",
+      "n": 1,
+      "f": 76
+     },
+     {
+      "f": 94
+     }
+    ]
+   }
+  },
+  {
+   "id": "scanHookA",
+   "el": "ScanLine",
+   "pane": 0,
+   "at": {
+    "f": 44
+   },
+   "props": {
+    "dur": 22
+   }
+  },
+  {
+   "id": "scanHookB",
+   "el": "ScanLine",
+   "pane": 1,
+   "at": {
+    "f": 56
+   },
+   "props": {
+    "dur": 22
+   }
+  },
+  {
+   "id": "lockA",
+   "el": "LockCard",
+   "at": {
+    "f": 112
+   },
+   "until": "end",
+   "props": {
+    "cover": "texto",
+    "phase": 0
+   }
+  },
+  {
+   "id": "lockB",
+   "el": "LockCard",
+   "at": {
+    "f": 112
+   },
+   "until": "end",
+   "props": {
+    "cover": "texto",
+    "phase": 22
+   }
+  },
+  {
+   "id": "ringA",
+   "el": "Ring",
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "off": 2,
+    "f": 230
+   },
+   "until": "end",
+   "props": {
+    "c": [
+     250,
+     46
+    ],
+    "rx": 38,
+    "draw": 0,
+    "pulses": [
+     {
+      "w": "palavra",
+      "n": 1,
+      "f": 251
+     },
+     {
+      "w": "palavra",
+      "n": 1,
+      "f": 381
+     },
+     {
+      "w": "palavra",
+      "n": 1,
+      "f": 469
+     },
+     {
+      "w": "palavra",
+      "n": 1,
+      "f": 549
+     },
+     {
+      "w": "palavra",
+      "n": 1,
+      "f": 759
+     },
+     {
+      "w": "palavra",
+      "n": 1,
+      "f": 990
+     }
+    ]
+   }
+  },
+  {
+   "id": "ringB",
+   "el": "Ring",
+   "at": {
+    "w": "palavra",
+    "n": 2,
+    "f": 446
+   },
+   "until": "closing",
+   "props": {
+    "c": [
+     269,
+     514
+    ],
+    "rx": 32,
+    "draw": 10,
+    "pulses": [
+     {
+      "w": "palavra",
+      "n": 1,
+      "f": 469
+     },
+     {
+      "w": "palavra",
+      "n": 1,
+      "f": 596
+     },
+     {
+      "w": "palavra",
+      "n": 1,
+      "f": 829
+     }
+    ]
+   }
+  },
+  {
+   "id": "link",
+   "el": "Guide",
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 469
+   },
+   "until": {
+    "f": 530
+   },
+   "props": {
+    "points": [
+     [
+      250,
+      88
+     ],
+     [
+      268,
+      480
+     ]
+    ]
+   }
+  },
+  {
+   "id": "divider",
+   "el": "Divider",
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 852
+   },
+   "until": {
+    "w": "palavra",
+    "n": 2,
+    "f": 938
+   },
+   "props": {
+    "y": 482.5,
+    "x0": 24,
+    "x1": 1057,
+    "draw": 14
+   }
+  },
+  {
+   "id": "halo1",
+   "el": "CursorHalo",
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 381
+   },
+   "props": {
+    "from": 388,
+    "to": 434
+   }
+  },
+  {
+   "id": "halo2",
+   "el": "CursorHalo",
+   "at": {
+    "w": "palavra",
+    "n": 2,
+    "off": 7,
+    "f": 453
+   },
+   "props": {
+    "from": 453,
+    "to": 531
+   }
+  },
+  {
+   "id": "cmp",
+   "el": "Compare",
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 959
+   },
+   "until": {
+    "w": "palavra",
+    "n": 1,
+    "f": 1072
+   },
+   "props": {
+    "a": {
+     "cx": 273,
+     "cy": 223,
+     "s": 1.84
+    },
+    "b": {
+     "cx": 287.8,
+     "cy": 658.8,
+     "s": 2.25
+    },
+    "labels": [
+     "TEXTO DE EXEMPLO",
+     "TEXTO DE EXEMPLO"
+    ],
+    "labelsAt": "texto",
+    "pill": "texto",
+    "bFilms": [
+     "TEXTO DE EXEMPLO"
+    ],
+    "sweeps": [
+     {
+      "from": 959,
+      "to": 990,
+      "x0": 40,
+      "x1": 1040
+     },
+     {
+      "from": 990,
+      "to": 1026,
+      "x0": 1040,
+      "x1": 40
+     },
+     {
+      "from": 1030,
+      "to": 1048,
+      "x0": 40,
+      "x1": 498
+     },
+     {
+      "from": 1054,
+      "to": 1066,
+      "x0": 498,
+      "x1": 700
+     },
+     {
+      "from": 1066,
+      "to": 1078,
+      "x0": 700,
+      "x1": 498
+     },
+     {
+      "from": 1080,
+      "to": 1087,
+      "x0": 498,
+      "x1": 40
+     }
+    ]
+   }
+  },
+  {
+   "id": "chipObj",
+   "el": "Chip",
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 122
+   },
+   "until": {
+    "w": "palavra",
+    "n": 1,
+    "f": 353
+   },
+   "props": {
+    "text": "TEXTO DE EXEMPLO",
+    "dock": "BL",
+    "rolls": [
+     {
+      "at": {
+       "w": "palavra",
+       "n": 1,
+       "f": 162
+      },
+      "text": "TEXTO DE EXEMPLO"
+     },
+     {
+      "at": {
+       "w": "palavra",
+       "n": 1,
+       "f": 251
+      },
+      "text": "TEXTO DE EXEMPLO"
+     },
+     {
+      "at": {
+       "w": "palavra",
+       "n": 1,
+       "f": 326
+      },
+      "text": "TEXTO DE EXEMPLO"
+     }
+    ],
+    "tick": [
+     {
+      "w": "palavra",
+      "n": 1,
+      "f": 251
+     }
+    ]
+   }
+  },
+  {
+   "id": "chipTopo",
+   "el": "Chip",
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 469
+   },
+   "until": {
+    "f": 530
+   },
+   "props": {
+    "text": "TEXTO DE EXEMPLO",
+    "body": {
+     "x": 64,
+     "y": 980
+    }
+   }
+  },
+  {
+   "id": "rowA",
+   "el": "Chip",
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 549
+   },
+   "until": {
+    "w": "palavra",
+    "n": 2,
+    "f": 581
+   },
+   "props": {
+    "text": "TEXTO DE EXEMPLO",
+    "dock": "TL"
+   }
+  },
+  {
+   "id": "rowB",
+   "el": "Chip",
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 596
+   },
+   "until": {
+    "f": 626
+   },
+   "props": {
+    "text": "TEXTO DE EXEMPLO",
+    "dock": "TL"
+   }
+  },
+  {
+   "id": "rowCima",
+   "el": "Chip",
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 759
+   },
+   "until": {
+    "w": "palavra",
+    "n": 2,
+    "f": 825
+   },
+   "props": {
+    "text": "TEXTO DE EXEMPLO",
+    "dock": "TL"
+   }
+  },
+  {
+   "id": "rowBaixo",
+   "el": "Chip",
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 829
+   },
+   "until": {
+    "f": 845
+   },
+   "props": {
+    "text": "TEXTO DE EXEMPLO",
+    "dock": "TL"
+   }
+  },
+  {
+   "id": "chipQI",
+   "el": "Chip",
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 980
+   },
+   "until": {
+    "w": "palavra",
+    "n": 1,
+    "f": 1072
+   },
+   "props": {
+    "text": "TEXTO DE EXEMPLO",
+    "dock": "TL",
+    "build": [
+     {
+      "at": {
+       "w": "palavra",
+       "n": 1,
+       "f": 990
+      },
+      "text": "TEXTO DE EXEMPLO"
+     }
+    ]
+   }
+  },
+  {
+   "id": "coin",
+   "el": "Prop",
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 133
+   },
+   "until": {
+    "f": 234
+   },
+   "props": {
+    "screen": [
+     540,
+     810
+    ],
+    "size": 400,
+    "hero": false,
+    "moves": [
+     {
+      "at": {
+       "w": "palavra",
+       "n": 1,
+       "f": 133
+      },
+      "name": "flip",
+      "dur": 30,
+      "args": {
+       "turns": 720
+      }
+     },
+     {
+      "at": {
+       "w": "palavra",
+       "n": 1,
+       "f": 162
+      },
+      "name": "flip",
+      "dur": 24,
+      "args": {
+       "turns": 360
+      }
+     },
+     {
+      "at": {
+       "w": "palavra",
+       "n": 1,
+       "f": 216
+      },
+      "name": "face",
+      "dur": 14
+     }
+    ],
+    "fly": {
+     "at": {
+      "w": "palavra",
+      "n": 1,
+      "f": 216
+     },
+     "to": [
+      250,
+      46
+     ],
+     "dur": 14,
+     "size": 153,
+     "fade": 4
+    }
+   }
+  },
+  {
+   "id": "scan",
+   "el": "ScanLine",
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 707
+   },
+   "props": {
+    "dur": 40
+   }
+  },
+  {
+   "id": "scan2",
+   "el": "ScanLine",
+   "at": {
+    "w": "palavra",
+    "n": 2,
+    "f": 800
+   },
+   "props": {
+    "dur": 26,
+    "opacity": 0.7
+   }
+  }
+ ],
+ "captions": {
+  "hide": [
+   [
+    1156,
+    1265
+   ]
+  ],
+  "accent": [
+   {
+    "w": "palavra",
+    "n": 1,
+    "f": 162
+   },
+   {
+    "w": "palavra",
+    "n": 1,
+    "f": 251
+   },
+   {
+    "w": "palavra",
+    "n": 1,
+    "f": 469
+   },
+   {
+    "w": "palavra",
+    "n": 1,
+    "f": 890
+   },
+   {
+    "w": "palavra",
+    "n": 1,
+    "f": 990
+   },
+   {
+    "w": "palavra",
+    "n": 2,
+    "f": 1140
+   }
+  ],
+  "emphasis": [
+   {
+    "w": "palavra",
+    "n": 1,
+    "f": 36
+   },
+   {
+    "w": "palavra",
+    "n": 1,
+    "f": 707
+   }
+  ]
+ },
+ "closing": {
+  "variant": "A",
+  "preRoll": 1144,
+  "quoted": true,
+  "size": 80,
+  "lines": [
+   "TEXTO DE EXEMPLO",
+   "TEXTO DE EXEMPLO",
+   "TEXTO DE EXEMPLO",
+   "TEXTO DE EXEMPLO"
+  ],
+  "accent": "TEXTO DE EXEMPLO",
+  "wordSync": [
+   {
+    "anchor": {
+     "w": "palavra",
+     "n": 2,
+     "f": 1156
+    },
+    "line": 0,
+    "word": 0
+   },
+   {
+    "anchor": {
+     "w": "palavra",
+     "n": 1,
+     "f": 1169
+    },
+    "line": 0,
+    "word": 1
+   },
+   {
+    "anchor": {
+     "w": "palavra",
+     "n": 1,
+     "f": 1173
+    },
+    "line": 0,
+    "word": 2
+   },
+   {
+    "anchor": {
+     "w": "palavra",
+     "n": 1,
+     "f": 1180
+    },
+    "line": 1,
+    "word": 0
+   },
+   {
+    "anchor": {
+     "w": "palavra",
+     "n": 2,
+     "f": 1193
+    },
+    "line": 1,
+    "word": 1
+   },
+   {
+    "anchor": {
+     "w": "palavra",
+     "n": 1,
+     "f": 1199
+    },
+    "line": 2,
+    "word": 0
+   },
+   {
+    "anchor": {
+     "w": "palavra",
+     "n": 1,
+     "f": 1219
+    },
+    "line": 2,
+    "word": 1
+   },
+   {
+    "anchor": {
+     "w": "palavra",
+     "n": 1,
+     "f": 1226
+    },
+    "line": 2,
+    "word": 2
+   },
+   {
+    "anchor": {
+     "w": "palavra",
+     "n": 3,
+     "f": 1232
+    },
+    "line": 3,
+    "word": 0
+   },
+   {
+    "anchor": {
+     "w": "palavra",
+     "n": 1,
+     "f": 1235
+    },
+    "line": 3,
+    "word": 1
+   }
+  ],
+  "swapTo": {
+   "lines": [
+    "TEXTO DE EXEMPLO",
+    "TEXTO DE EXEMPLO",
+    "TEXTO DE EXEMPLO"
+   ],
+   "accent": "TEXTO DE EXEMPLO",
+   "size": 104
+  },
+  "slotCam": {
+   "cx": 540,
+   "cy": 226,
+   "s": 0.94
+  },
+  "keep": [
+   "ringA",
+   "coverA-label",
+   "lockA"
+  ],
+  "propMove": "face",
+  "faceStill": 15
+ },
+ "looks": {
+  "branco": {
+   "look": {
+    "ink": {
+     "head": {
+      "mode": "tab",
+      "fill": "#60AFF0",
+      "text": "#1C1E22"
+     }
+    }
+   },
+   "hook": {
+    "accentAt": {
+     "off": -63,
+     "f": -27
+    },
+    "tokenMove": null,
+    "wordSync": [
+     {
+      "anchor": {
+       "w": "palavra",
+       "n": 1,
+       "f": 36
+      },
+      "line": 2,
+      "word": 0,
+      "punch": true
+     }
+    ]
+   },
+   "tokenMoves": [
+    {
+     "at": {
+      "w": "palavra",
+      "n": 1,
+      "f": 36
+     },
+     "name": "flip",
+     "dur": 14
+    },
+    {
+     "at": {
+      "w": "palavra",
+      "n": 1,
+      "f": 76
+     },
+     "name": "flip",
+     "dur": 14
+    },
+    {
+     "at": {
+      "w": "palavra",
+      "n": 1,
+      "f": 1199
+     },
+     "name": "edge",
+     "dur": 46
+    }
+   ],
+   "sounds": [
+    {
+     "at": {
+      "w": "palavra",
+      "n": 1,
+      "f": 36
+     },
+     "cue": "tick"
+    },
+    {
+     "at": {
+      "w": "palavra",
+      "n": 1,
+      "f": 133
+     },
+     "cue": "pop"
+    },
+    {
+     "at": {
+      "w": "palavra",
+      "n": 1,
+      "f": 162
+     },
+     "cue": "tick"
+    }
+   ],
+   "patchBeats": {
+    "ringHookA": {
+     "props": {
+      "pulses": [
+       {
+        "w": "palavra",
+        "n": 1,
+        "f": 36
+       },
+       {
+        "f": 48
+       },
+       {
+        "w": "palavra",
+        "n": 1,
+        "f": 76
+       },
+       {
+        "f": 94
+       }
+      ]
+     }
+    },
+    "ringHookB": {
+     "props": {
+      "pulses": [
+       {
+        "w": "palavra",
+        "n": 1,
+        "f": 36
+       },
+       {
+        "f": 60
+       },
+       {
+        "w": "palavra",
+        "n": 1,
+        "f": 76
+       },
+       {
+        "f": 94
+       }
+      ]
+     }
+    },
+    "coin": null
+   }
+  }
+ }
+}

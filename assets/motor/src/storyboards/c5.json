@@ -1,0 +1,591 @@
+{
+ "id": "c5",
+ "format": "primary",
+ "video": "c5/video.mp4",
+ "data": "c5.json",
+ "cursor": "cursor-c5.json",
+ "frames": 453,
+ "closingFrames": 102,
+ "films": [
+  {
+   "id": "F",
+   "rect": [
+    102,
+    30,
+    1256,
+    878
+   ]
+  }
+ ],
+ "patches": [
+  {
+   "rect": [
+    100,
+    28,
+    322,
+    240
+   ],
+   "fill": "stage"
+  }
+ ],
+ "face": {
+  "still": 330,
+  "lost": [
+   [
+    212,
+    225,
+    318
+   ]
+  ]
+ },
+ "prop": {
+  "component": "RibArc"
+ },
+ "autoPunch": false,
+ "hook": {
+  "kicker": "TEXTO DE EXEMPLO",
+  "lines": [
+   "TEXTO DE EXEMPLO",
+   "TEXTO DE EXEMPLO",
+   "TEXTO DE EXEMPLO"
+  ],
+  "accent": "TEXTO DE EXEMPLO",
+  "quoted": false,
+  "size": 104,
+  "accentAt": {
+   "f": 10
+  },
+  "tokenHome": {
+   "line": 0,
+   "gap": 24,
+   "size": 180
+  },
+  "tokenMove": "loop",
+  "exit": 96,
+  "slot": {
+   "cam": [
+    {
+     "cx": 665,
+     "cy": 485,
+     "s": 1.1
+    },
+    {
+     "cx": 760,
+     "cy": 470,
+     "s": 1.25
+    }
+   ]
+  }
+ },
+ "tokenMoves": [
+  {
+   "at": {
+    "f": 0
+   },
+   "name": "loop"
+  },
+  {
+   "at": {
+    "f": 96
+   },
+   "name": "curve"
+  },
+  {
+   "at": {
+    "f": 96
+   },
+   "name": "blink",
+   "dur": 10
+  },
+  {
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "off": 8,
+    "f": 136
+   },
+   "name": "flatten"
+  },
+  {
+   "at": {
+    "w": "palavra",
+    "n": 2,
+    "f": 352
+   },
+   "name": "curve"
+  },
+  {
+   "at": {
+    "w": "palavra",
+    "n": 2,
+    "off": 14,
+    "f": 366
+   },
+   "name": "flatten"
+  },
+  {
+   "at": {
+    "f": 453
+   },
+   "name": "blink",
+   "dur": 8
+  }
+ ],
+ "hud": {
+  "tag": [
+   "TEXTO DE EXEMPLO",
+   "TEXTO DE EXEMPLO"
+  ],
+  "readouts": []
+ },
+ "camera": [
+  {
+   "at": {
+    "f": 96
+   },
+   "to": {
+    "cx": 679,
+    "cy": 455,
+    "s": 0.95
+   },
+   "dur": 16
+  },
+  {
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 158
+   },
+   "to": {
+    "cx": 760,
+    "cy": 470,
+    "s": 1.25
+   },
+   "dur": 18
+  },
+  {
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 225
+   },
+   "to": {
+    "cx": 800,
+    "cy": 465,
+    "s": 1.42
+   },
+   "dur": 49,
+   "ease": "linear"
+  },
+  {
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 274
+   },
+   "dur": 26,
+   "punch": true
+  },
+  {
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 321
+   },
+   "to": {
+    "cx": 760,
+    "cy": 470,
+    "s": 1.25
+   },
+   "dur": 14,
+   "ease": "out"
+  },
+  {
+   "at": {
+    "w": "palavra",
+    "n": 2,
+    "f": 352
+   },
+   "to": {
+    "cx": 820,
+    "cy": 468,
+    "s": 1.45
+   },
+   "dur": 30
+  },
+  {
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 391
+   },
+   "dur": 26,
+   "punch": true
+  },
+  {
+   "at": {
+    "f": 453
+   },
+   "to": {
+    "cx": 780,
+    "cy": 460,
+    "s": 1.3
+   },
+   "dur": 16
+  }
+ ],
+ "beats": [
+  {
+   "id": "chipPed",
+   "el": "Chip",
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 38
+   },
+   "until": {
+    "f": 96
+   },
+   "props": {
+    "text": "TEXTO DE EXEMPLO",
+    "dock": "BL",
+    "build": [
+     {
+      "at": {
+       "w": "palavra",
+       "n": 1,
+       "f": 58
+      },
+      "text": "TEXTO DE EXEMPLO"
+     }
+    ]
+   }
+  },
+  {
+   "id": "cardArc",
+   "el": "ArcCard",
+   "at": {
+    "f": 96
+   },
+   "until": "end",
+   "props": {
+    "dock": "TL",
+    "size": 208,
+    "propSize": 188,
+    "heroAt": {
+     "w": "palavra",
+     "n": 1,
+     "f": 128
+    },
+    "hold": 20,
+    "moves": [
+     {
+      "at": {
+       "w": "palavra",
+       "n": 1,
+       "off": 8,
+       "f": 136
+      },
+      "name": "flatten",
+      "dur": 14
+     },
+     {
+      "at": {
+       "w": "palavra",
+       "n": 2,
+       "f": 352
+      },
+      "name": "curve",
+      "dur": 14
+     },
+     {
+      "at": {
+       "w": "palavra",
+       "n": 2,
+       "off": 14,
+       "f": 366
+      },
+      "name": "flatten",
+      "dur": 14
+     },
+     {
+      "at": {
+       "f": 461
+      },
+      "name": "loop"
+     }
+    ]
+   }
+  },
+  {
+   "id": "brRibs",
+   "el": "Brackets",
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 158
+   },
+   "until": "end",
+   "props": {
+    "rect": [
+     880,
+     380,
+     1085,
+     560
+    ],
+    "delay": 2,
+    "pulses": [
+     {
+      "w": "palavra",
+      "n": 1,
+      "f": 274
+     },
+     {
+      "w": "palavra",
+      "n": 2,
+      "f": 352
+     }
+    ]
+   }
+  },
+  {
+   "id": "halo",
+   "el": "CursorHalo",
+   "at": {
+    "f": 379
+   },
+   "props": {
+    "from": 379,
+    "to": 425
+   }
+  },
+  {
+   "id": "eq",
+   "el": "RibEquation",
+   "at": {
+    "w": "palavra",
+    "n": 1,
+    "f": 168
+   },
+   "until": {
+    "f": 454
+   },
+   "props": {
+    "left": "TEXTO DE EXEMPLO",
+    "connector": "TEXTO DE EXEMPLO",
+    "right": "TEXTO DE EXEMPLO",
+    "connectorAt": {
+     "w": "palavra",
+     "n": 1,
+     "f": 187
+    },
+    "rightAt": {
+     "w": "palavra",
+     "n": 1,
+     "f": 225
+    },
+    "rightDur": 45,
+    "pulses": [
+     {
+      "w": "palavra",
+      "n": 1,
+      "f": 274
+     }
+    ],
+    "doubtAt": {
+     "w": "palavra",
+     "n": 1,
+     "f": 321
+    },
+    "qualifier": "TEXTO DE EXEMPLO",
+    "notAt": {
+     "w": "palavra",
+     "n": 1,
+     "f": 391
+    },
+    "questionAt": {
+     "w": "palavra",
+     "n": 1,
+     "f": 413
+    }
+   }
+  }
+ ],
+ "captions": {
+  "hide": [],
+  "accent": [
+   {
+    "w": "palavra",
+    "n": 1,
+    "f": 128
+   },
+   {
+    "w": "palavra",
+    "n": 1,
+    "f": 225
+   },
+   {
+    "w": "palavra",
+    "n": 1,
+    "f": 321
+   },
+   {
+    "w": "palavra",
+    "n": 1,
+    "f": 391
+   }
+  ],
+  "emphasis": [
+   {
+    "w": "palavra",
+    "n": 1,
+    "f": 396
+   }
+  ]
+ },
+ "closing": {
+  "variant": "B",
+  "size": 100,
+  "lines": [
+   "TEXTO DE EXEMPLO",
+   "TEXTO DE EXEMPLO",
+   "TEXTO DE EXEMPLO"
+  ],
+  "accent": "TEXTO DE EXEMPLO",
+  "slotCam": {
+   "cx": 780,
+   "cy": 460,
+   "s": 1.3
+  },
+  "keep": [
+   "brRibs",
+   "cardArc"
+  ],
+  "propMove": "loop"
+ },
+ "looks": {
+  "duas-cores": {
+   "patchBeats": {
+    "cardArc": null,
+    "eq": null
+   },
+   "closing": {
+    "keep": [
+     "brRibs"
+    ]
+   },
+   "camera": [
+    {
+     "at": {
+      "f": 96
+     },
+     "to": {
+      "cx": 789,
+      "cy": 455,
+      "s": 1.07
+     },
+     "dur": 16
+    },
+    {
+     "at": {
+      "w": "palavra",
+      "n": 1,
+      "f": 158
+     },
+     "to": {
+      "cx": 760,
+      "cy": 470,
+      "s": 1.25
+     },
+     "dur": 18
+    },
+    {
+     "at": {
+      "w": "palavra",
+      "n": 1,
+      "f": 225
+     },
+     "to": {
+      "cx": 800,
+      "cy": 465,
+      "s": 1.42
+     },
+     "dur": 49,
+     "ease": "linear"
+    },
+    {
+     "at": {
+      "w": "palavra",
+      "n": 1,
+      "f": 274
+     },
+     "dur": 26,
+     "punch": true
+    },
+    {
+     "at": {
+      "w": "palavra",
+      "n": 1,
+      "f": 321
+     },
+     "to": {
+      "cx": 760,
+      "cy": 470,
+      "s": 1.25
+     },
+     "dur": 14,
+     "ease": "out"
+    },
+    {
+     "at": {
+      "w": "palavra",
+      "n": 2,
+      "f": 352
+     },
+     "to": {
+      "cx": 820,
+      "cy": 468,
+      "s": 1.45
+     },
+     "dur": 30
+    },
+    {
+     "at": {
+      "w": "palavra",
+      "n": 1,
+      "f": 391
+     },
+     "dur": 26,
+     "punch": true
+    },
+    {
+     "at": {
+      "f": 453
+     },
+     "to": {
+      "cx": 780,
+      "cy": 460,
+      "s": 1.3
+     },
+     "dur": 16
+    }
+   ],
+   "hook": {
+    "slot": {
+     "cam": [
+      {
+       "cx": 665,
+       "cy": 516,
+       "s": 1.1
+      },
+      {
+       "cx": 760,
+       "cy": 470,
+       "s": 1.25
+      }
+     ]
+    }
+   }
+  }
+ }
+}
